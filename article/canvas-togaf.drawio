@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2024-06-30T18:47:31.123Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.5.3 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="_gwRpIiWtiyr6AWr8JWY" version="24.5.3" type="device" pages="2">
+<mxfile host="Electron" modified="2024-06-30T19:06:34.188Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.5.3 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="YArH7M_vfnZu0VZry1u4" version="24.5.3" type="device" pages="2">
   <diagram name="Vision" id="7_jsQUVcg60ziJX6l3Xl">
     <mxGraphModel dx="1266" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -133,7 +133,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="ValueStream" id="pUt1crntA1DKBPfgsObC">
+  <diagram name="Value Stream" id="pUt1crntA1DKBPfgsObC">
     <mxGraphModel dx="1266" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="C3KwHEWj78s4HjgkZ9Es-0" />
@@ -197,7 +197,7 @@
         <mxCell id="C3KwHEWj78s4HjgkZ9Es-30" value="&lt;p style=&quot;line-height: 100%;&quot;&gt;&lt;/p&gt;&lt;div class=&quot;tabs-panel is-active&quot; style=&quot;font-size: 12px;&quot;&gt;&lt;p class=&quot;license-text richtext&quot; style=&quot;font-size: 12px; line-height: 90%;&quot;&gt;Version 0.1.0&lt;br&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;spacing=0;verticalAlign=middle;rotation=-90;fillColor=none;strokeColor=none;align=right;allowArrows=0;fontSize=12;expand=0;movable=0;resizable=0;rotatable=0;" vertex="1" parent="C3KwHEWj78s4HjgkZ9Es-1">
           <mxGeometry x="1090" y="50" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="C3KwHEWj78s4HjgkZ9Es-31" value="Annotations" style="" visible="0" parent="C3KwHEWj78s4HjgkZ9Es-0" />
+        <mxCell id="C3KwHEWj78s4HjgkZ9Es-31" value="Annotations" style="" parent="C3KwHEWj78s4HjgkZ9Es-0" />
         <mxCell id="8hFcnGZHrdghYo4avy6B-20" value="Rev?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=0;shadow=0;connectable=0;allowArrows=0;fontSize=16;align=right;spacing=0;spacingLeft=0;spacingRight=33;movable=0;expand=0;resizable=0;rotatable=0;deletable=1;editable=1;locked=0;" vertex="1" parent="C3KwHEWj78s4HjgkZ9Es-31">
           <mxGeometry x="1040" y="10" width="90" height="50" as="geometry" />
         </mxCell>
