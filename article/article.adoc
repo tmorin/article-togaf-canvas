@@ -1,0 +1,191 @@
+= TOGFA Canvas
+:author: Thibault Morin
+:revdate: 2024-06-30
+:revnumber: 1
+:toc:
+:icons: font
+:source-highlighter: coderay
+:doctype: article
+:description: Presentation of canvas inspired by the TOGAF Standard.
+:copyright: CC BY 4.0
+
+// [abstract]
+// == Abstract
+
+// == Motivation
+
+== TOGAF - Architecture Vision
+
+The purpose of this canvas is to streamline the design of an architecture vision according to the TOGAF Standard.
+It is designed to be used as a tool to facilitate the communication and alignment of stakeholders around the architecture vision.
+The canvas cover the main information involved in the Phase A of the TOGAF ADM <<pA>>.
+
+.TOGAF - Architecture Vision - Annotated Canvas
+image::../src/canvas-togaf.vision.annotated.svg[]
+
+To guide the design of the architecture vision, the canvas provides a set of questions, keywords, and explanations for each box.
+
+.TOGAF - Architecture Vision - Stakeholders
+[%autowidth.stretch, cols="h,a"]
+|===
+|Box
+|Stakeholders
+
+|Question
+|Who has concerns about this architecture work?
+
+|Keywords
+|requesters, decision leaders, business units, end-users, regulatory bodies, sponsors, IT department, vendors, partners
+
+|Explanation
+|Identify people and organizations impacted by the architecture work.
+It usually starts with the initiator of the architecture work.
+Then, other stakeholders are added when inspecting the scope of the architecture work iteratively.
+This includes anyone who has a vested interest in the project or whose work will be affected by it.
+|===
+
+.TOGAF - Architecture Vision - Drivers
+[%autowidth.stretch, cols="h,a"]
+|===
+|Box
+|Drivers
+
+|Question
+|What are the internal and external factors triggering this architecture work?
+
+|Keywords
+|audits, regulations, strategy, market trends, technological advancements, competitive pressure, business opportunities, risk management
+
+|Explanation
+|Identify the rationale which triggered the architecture work. Most of the time, it is about stakeholder concerns. Some concerns are external, e.g., compliance requirements. Others are internal, e.g., the establishment of a new enterprise strategy. These factors are both motivators and constraints for the architecture.
+|===
+
+.TOGAF - Architecture Vision - Objective & Goals
+[%autowidth.stretch, cols="h,a"]
+|===
+|Box
+|Objective & Goals
+
+|Question
+|What is the objective of this architecture work?
+
+|Keywords
+|SMART (Specific, Measurable, Achievable, Relevant, Time-bound), business goals, performance improvement, cost reduction, customer satisfaction, innovation
+
+|Explanation
+|Define clear and achievable objective and/or goals for the architecture work. Objectives and goals should align with the overall business strategy and be measurable to track progress. This helps ensure the architecture delivers tangible benefits.
+|===
+
+.TOGAF - Architecture Vision - Principles
+[%autowidth.stretch, cols="h,a"]
+|===
+|Box
+|Principles
+
+|Question
+|What is the objective of this architecture work?
+
+|Keywords
+|business principles, architecture principles, best practices, standards, policies, governance
+
+|Explanation
+|Establish the foundational rules and guidelines that the architecture work must adhere to. These principles guide decision-making and ensure consistency across the architecture development process.
+|===
+
+.TOGAF - Architecture Vision - Constraints
+[%autowidth.stretch, cols="h,a"]
+|===
+|Box
+|Constraints
+
+|Question
+|What are the limits and boundaries of this architecture work?
+
+|Keywords
+|compliance, time, schedule, resources, budget, technology limitations, legacy systems
+
+|Explanation
+|Identify the limitations and boundaries within which the architecture work must be conducted. Constraints can include regulatory requirements, budget limitations, time constraints, multicultural environments, and other aspects that must be considered.
+|===
+
+.TOGAF - Architecture Vision - Scope
+[%autowidth.stretch, cols="h,a"]
+|===
+|Box
+|Scope
+
+|Question
+|What is inside and outside of this architecture work?
+
+|Keywords
+|breadth, depth, time period, architecture domains, inclusions, exclusions, boundaries
+
+|Explanation
+|Clearly define what the architecture work will and will not cover. This includes specifying the architecture domains (e.g., business, data, application, technology) and level of details which the architecture will be developed.
+|===
+
+.TOGAF - Architecture Vision - Capabilities
+[%autowidth.stretch, cols="h,a"]
+|===
+|Box
+|Capabilities
+
+|Question
+|What are the expected capabilities to develop and consume the outcomes of this architecture work?
+
+|Keywords
+|skills, experts, training, tools, methodologies, frameworks, support
+
+|Explanation
+|Identify the skills, knowledge, and tools required to develop and utilize the architecture. For instance, this includes ensuring that the team has the necessary expertise and that end-users are trained to effectively use the new systems and processes.
+|===
+
+.TOGAF - Architecture Vision - Risks
+[%autowidth.stretch, cols="h,a"]
+|===
+|Box
+|Risks
+
+|Question
+|What are the main risks that could prevent the completion of this architecture work?
+
+|Keywords
+|mitigations, threats, vulnerabilities, impact, probability, risk management, contingency plans
+
+|Explanation
+|Identify the main risks that could impact the completion of the architecture work and develop high-level mitigation strategies to address these risks.
+|===
+
+.TOGAF - Architecture Vision - Vision
+[%autowidth.stretch, cols="h,a"]
+|===
+|Box
+|Vision
+
+|Question
+|What is the high-level description of this architecture work?
+
+|Keywords
+|main deliverables, solution concept diagram, gaps, future state, target architecture, roadmap
+
+|Explanation
+|Provide a high-level overview of the architecture work, including the primary deliverables and the future state of the architecture. This may include a conceptual diagram of the solution, identifying any gaps between the current and target states, or outlining the roadmap to achieve the vision.
+|===
+
+[bibliography]
+== Bibliography
+
+* [[[pA]]] https://pubs.opengroup.org/togaf-standard/adm/chap03.html[TOGAF® Fundamental Content - Phase A: Architecture Vision]
+
+[colophon]
+== Colophon
+
+Distributed under the https://creativecommons.org/licenses/by/4.0:[{copyright}] license.
+
+[appendix]
+== Appendix
+
+=== TOGAF - Architecture Vision - Canvas
+
+.TOGAF - Architecture Vision - Canvas
+image::../src/canvas-togaf.vision.svg[]

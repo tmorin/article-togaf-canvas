@@ -1,0 +1,45 @@
+name: Continuous Integration - Build
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  article:
+    permissions:
+      contents: write
+    concurrency:
+      group: "${{ github.workflow }}-${{ github.ref }}"
+    runs-on: ubuntu-latest
+    name: Build the article
+    container: asciidoctor/docker-asciidoctor
+    steps:
+      - uses: actions/checkout@v2
+      - name: Build article-website
+        run: |
+          asciidoctor -r asciidoctor-diagram article/article.adoc -D dist/article -a toc=left -o index.html
+          cp article/*.png dist/article
+          cp article/*.svg dist/article
+          cp article/*.pdf dist/article
+      - name: Build article-pdf
+        run: asciidoctor-pdf -r asciidoctor-diagram article/article.adoc -D dist -o togaf-canvas-article.pdf
+      - name: Upload article-pdf
+        uses: actions/upload-artifact@v2
+        with:
+          name: article-pdf
+          path: dist/togaf-canvas-article.pdf
+      - name: Upload article-website
+        uses: actions/upload-artifact@v2
+        with:
+          name: article-website
+          path: dist/article
+      - name: Copy article-pdf to website
+        run: cp dist/togaf-canvas-article.pdf dist/article/togaf-canvas-article.pdf
+      - name: Copy PDF resources to website
+        run: cp src/*.pdf dist/article/
+      - name: Deploy to GitHub Pages
+        if: ${{ startsWith(github.ref, 'refs/tags/') }}
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist/article
