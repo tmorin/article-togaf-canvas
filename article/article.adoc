@@ -1,7 +1,7 @@
 = TOGFA Canvas
 :author: Thibault Morin
 :revdate: 2024-06-30
-:revnumber: 1
+:revnumber: 2
 :toc:
 :icons: font
 :source-highlighter: coderay
@@ -172,10 +172,87 @@ This includes anyone who has a vested interest in the project or whose work will
 |Provide a high-level overview of the architecture work, including the primary deliverables and the future state of the architecture. This may include a conceptual diagram of the solution, identifying any gaps between the current and target states, or outlining the roadmap to achieve the vision.
 |===
 
+== TOGAF - Value Stream
+
+The purpose of this canvas is to streamline the design of a Value Stream according to the TOGAF Standard <<vs>>.
+It provides a structured approach to identify, define, and communicate a Value Stream.
+This canvas focuses on the high-level view of a Value Stream.
+Another canvas, TOGAF - Value Stage, is available to detail the stages of the Value Stream.
+
+.TOGAF - Architecture Vision - Annotated Canvas
+image::./canvas-togaf.value-stream.annotated.svg[]
+
+To guide the design of the architecture vision, the canvas provides a set of questions, keywords, and explanations for each box.
+
+.TOGAF - Value Stream - Description
+[%autowidth.stretch, cols="h,a"]
+|===
+|Box
+|Description
+
+|Question
+|What is the self-explanatory, short and precise description of this Value Stream?
+
+|Keywords
+|objective, overview, summary
+
+|Explanation
+|Provide a brief, clear summary that encapsulates the purpose and scope of the Value Stream.
+|===
+
+.TOGAF - Value Stream - Stakeholders
+[%autowidth.stretch, cols="h,a"]
+|===
+|Box
+|Stakeholders
+
+|Question
+|What are the persons or roles that initiate or trigger this Value Stream?
+
+|Keywords
+|requesters, decision leaders, business units, end-users, regulatory bodies, sponsors, IT department, vendors, partners
+
+|Explanation
+|Identify all key stakeholders initiating or triggering the Value Stream, including their roles and responsibilities.
+|===
+
+.TOGAF - Value Stream - Value
+[%autowidth.stretch, cols="h,a"]
+|===
+|Box
+|Value
+
+|Question
+|What is the expected value which received upon successful completion of the Value Stream?
+
+|Keywords
+|outcomes, benefits, deliverables
+
+|Explanation
+|Describe the tangible and intangible benefits or outcomes that are expected from the Value Stream.
+|===
+
+.TOGAF - Value Stream - Stages
+[%autowidth.stretch, cols="h,a"]
+|===
+|Box
+|Stages
+
+|Question
+|What are the stages of this Value Stream?
+
+|Keywords
+|phases, steps, milestones
+
+|Explanation
+|Outline the key stages or phases of the Value Stream, detailing the sequence and flow of activities.
+|===
+
 [bibliography]
 == Bibliography
 
 * [[[pA]]] https://pubs.opengroup.org/togaf-standard/adm/chap03.html[TOGAF® Fundamental Content - Phase A: Architecture Vision]
+* [[[vs]]] https://pubs.opengroup.org/togaf-standard/business-architecture/value-streams.html[TOGAF® Series Guide - Value Streams]
 
 [colophon]
 == Colophon
@@ -189,3 +266,8 @@ Distributed under the https://creativecommons.org/licenses/by/4.0:[{copyright}] 
 
 .TOGAF - Architecture Vision - Canvas
 image::./canvas-togaf.vision.svg[]
+
+=== TOGAF - Value Stream - Canvas
+
+.TOGAF - Value Stream - Canvas
+image::./canvas-togaf.value-stream.svg[]
