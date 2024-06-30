@@ -3,6 +3,4 @@
 *.bak
 *.iml
 .$*
-article/*.html
-article/*.pdf
 dist/

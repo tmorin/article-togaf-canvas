@@ -21,7 +21,7 @@ It is designed to be used as a tool to facilitate the communication and alignmen
 The canvas cover the main information involved in the Phase A of the TOGAF ADM <<pA>>.
 
 .TOGAF - Architecture Vision - Annotated Canvas
-image::../src/canvas-togaf.vision.annotated.svg[]
+image::./canvas-togaf.vision.annotated.svg[]
 
 To guide the design of the architecture vision, the canvas provides a set of questions, keywords, and explanations for each box.
 
@@ -188,4 +188,4 @@ Distributed under the https://creativecommons.org/licenses/by/4.0:[{copyright}] 
 === TOGAF - Architecture Vision - Canvas
 
 .TOGAF - Architecture Vision - Canvas
-image::../src/canvas-togaf.vision.svg[]
+image::./canvas-togaf.vision.svg[]
