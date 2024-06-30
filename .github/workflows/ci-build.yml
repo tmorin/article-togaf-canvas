@@ -18,7 +18,6 @@ jobs:
       - name: Build article-website
         run: |
           asciidoctor -r asciidoctor-diagram article/article.adoc -D dist/article -a toc=left -o index.html
-          cp article/*.png dist/article
           cp article/*.svg dist/article
           cp article/*.pdf dist/article
       - name: Build article-pdf
