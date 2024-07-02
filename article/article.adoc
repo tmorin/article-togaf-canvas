@@ -1,7 +1,7 @@
 = TOGFA Canvas
 :author: Thibault Morin
-:revdate: 2024-06-30
-:revnumber: 2
+:revdate: 2024-07-02
+:revnumber: 3
 :toc:
 :icons: font
 :source-highlighter: coderay
@@ -179,7 +179,7 @@ It provides a structured approach to identify, define, and communicate a Value S
 This canvas focuses on the high-level view of a Value Stream.
 Another canvas, TOGAF - Value Stage, is available to detail the stages of the Value Stream.
 
-.TOGAF - Architecture Vision - Annotated Canvas
+.TOGAF - Value Stream - Annotated Canvas
 image::./canvas-togaf.value-stream.annotated.svg[]
 
 To guide the design of the architecture vision, the canvas provides a set of questions, keywords, and explanations for each box.
@@ -248,6 +248,114 @@ To guide the design of the architecture vision, the canvas provides a set of que
 |Outline the key stages or phases of the Value Stream, detailing the sequence and flow of activities.
 |===
 
+== TOGAF - Value Stage
+
+The purpose of this canvas is to streamline the design of a Value Stage according to the TOGAF Standard <<vs>>.
+It provides a structured approach to identify, define, and communicate a Value Stage.
+This canvas focuses on Value Stream's Stage.
+Another canvas, TOGAF - Value Stream, is available to describe the high level view of a Value Stream.
+
+.TOGAF - Value Stage - Annotated Canvas
+image::./canvas-togaf.value-stage.annotated.svg[]
+
+To guide the design of the architecture vision, the canvas provides a set of questions, keywords, and explanations for each box.
+
+.TOGAF - Value Stage - Description
+[%autowidth.stretch, cols="h,a"]
+|===
+|Box
+|Description
+
+|Question
+|What is the purpose and the activities of this stage?
+
+|Keywords
+|
+
+|Explanation
+|A few sentences explaining the purpose and the activities performed during the value stream stage.
+|===
+
+.TOGAF - Value Stage - Stakeholders
+[%autowidth.stretch, cols="h,a"]
+|===
+|Box
+|Stakeholders
+
+|Question
+|Who is receiving or contributing value in this stage?
+
+|Keywords
+|purpose, activities, goals
+
+|Explanation
+|Actors who receive measurable value from the value stream stage, or who contribute to creating or delivering that value.
+|===
+
+.TOGAF - Value Stage - Entrance Criteria
+[%autowidth.stretch, cols="h,a"]
+|===
+|Box
+|Entrance Criteria
+
+|Question
+|What are the conditions that must be met to start this stage?
+
+|Keywords
+|beneficiaries, contributors, participants
+
+|Explanation
+|The starting condition or state change that either triggers the value stream stage or enables it to be activated.
+|===
+
+.TOGAF - Value Stage - Exit Criteria
+[%autowidth.stretch, cols="h,a"]
+|===
+|Box
+|Exit Criteria
+
+|Question
+|What are the conditions that must be met to complete this stage?
+
+|Keywords
+|prerequisites, conditions, triggers
+
+|Explanation
+|The end state condition that denotes the completion of the value stream stage; i.e., when the required value has been created or delivered to the stakeholders. This information becomes the entry criteria for the next value stream stage.
+|===
+
+.TOGAF - Value Stage - Value Item
+[%autowidth.stretch, cols="h,a"]
+|===
+|Box
+|Value Item
+
+|Question
+|What value provided by this stage?
+
+|Keywords
+|outcome, increment
+
+|Explanation
+|The incremental value that is created or delivered to the participating stakeholder(s) by the value stream stage.
+|===
+
+.TOGAF - Value Stage - Mapping
+[%autowidth.stretch, cols="h,a"]
+|===
+|Box
+|Mapping
+
+|Question
+|How does this stage relate to other concepts?
+
+|Keywords
+|relationships, connections, dependencies
+
+|Explanation
+|Identify the relationship between this stage and other concepts, such as capabilities, processes, applications ...
+|===
+
 [bibliography]
 == Bibliography
 
@@ -271,3 +379,8 @@ image::./canvas-togaf.vision.svg[]
 
 .TOGAF - Value Stream - Canvas
 image::./canvas-togaf.value-stream.svg[]
+
+=== TOGAF - Value Stage - Canvas
+
+.TOGAF - Value Stage - Canvas
+image::./canvas-togaf.value-stage.svg[]
