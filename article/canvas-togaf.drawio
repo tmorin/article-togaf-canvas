@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2024-07-02T20:08:31.211Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.5.3 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="8njvdXPGIxIxvcMBqanG" version="24.5.3" type="device" pages="3">
+<mxfile host="Electron" modified="2024-07-03T06:44:05.650Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.5.3 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="jNnbhHUtiTDucxIjPSnq" version="24.5.3" type="device" pages="3">
   <diagram name="Vision" id="7_jsQUVcg60ziJX6l3Xl">
     <mxGraphModel dx="1420" dy="824" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -228,7 +228,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Value Stage" id="B1r-IGkGZxlxesk9dpyi">
-    <mxGraphModel dx="1671" dy="969" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1420" dy="824" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="ybo5J9kRYHcmtXYjwoDp-0" />
         <mxCell id="ybo5J9kRYHcmtXYjwoDp-1" value="Boxes" style="" parent="ybo5J9kRYHcmtXYjwoDp-0" />
@@ -304,26 +304,32 @@
           <mxGeometry x="370" y="320" width="400" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ybo5J9kRYHcmtXYjwoDp-31" value="Annotations" style="" parent="ybo5J9kRYHcmtXYjwoDp-0" />
-        <mxCell id="T7IAFrL1lC8sGGJ73ZXA-20" value="What are the conditions that must be met to complete this stage?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=3;shadow=0;connectable=1;allowArrows=0;verticalAlign=top;align=left;spacing=0;spacingTop=25;spacingLeft=5;spacingBottom=5;spacingRight=5;movable=1;expand=0;resizable=0;rotatable=0;deletable=1;editable=1;locked=0;strokeColor=none;fontSize=16;" vertex="1" parent="ybo5J9kRYHcmtXYjwoDp-31">
+        <mxCell id="T7IAFrL1lC8sGGJ73ZXA-20" value="What are the conditions that must be met to complete this stage?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=3;shadow=0;connectable=1;allowArrows=0;verticalAlign=top;align=left;spacing=0;spacingTop=25;spacingLeft=5;spacingBottom=5;spacingRight=5;movable=1;expand=0;resizable=0;rotatable=0;deletable=1;editable=1;locked=0;strokeColor=none;fontSize=16;" parent="ybo5J9kRYHcmtXYjwoDp-31" vertex="1">
           <mxGeometry x="10" y="570" width="360" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="T7IAFrL1lC8sGGJ73ZXA-24" value="What is the name of the Value Stage?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=3;shadow=0;connectable=1;allowArrows=0;spacing=0;spacingLeft=10;align=center;movable=1;expand=0;resizable=1;spacingRight=10;rotatable=0;deletable=1;editable=1;locked=0;strokeColor=none;fontSize=20;" vertex="1" parent="ybo5J9kRYHcmtXYjwoDp-31">
+        <mxCell id="T7IAFrL1lC8sGGJ73ZXA-24" value="What is the name of the Value Stage?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=3;shadow=0;connectable=1;allowArrows=0;spacing=0;spacingLeft=10;align=center;movable=1;expand=0;resizable=1;spacingRight=10;rotatable=0;deletable=1;editable=1;locked=0;strokeColor=none;fontSize=20;" parent="ybo5J9kRYHcmtXYjwoDp-31" vertex="1">
           <mxGeometry x="440" y="10" width="440" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="T7IAFrL1lC8sGGJ73ZXA-25" value="What is the purpose and the activities of this stage?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=3;shadow=0;connectable=1;allowArrows=0;verticalAlign=top;align=left;spacing=0;spacingTop=25;spacingLeft=5;spacingBottom=5;spacingRight=5;movable=1;expand=0;resizable=0;rotatable=0;deletable=1;editable=1;locked=0;strokeColor=none;fontSize=16;" vertex="1" parent="ybo5J9kRYHcmtXYjwoDp-31">
+        <mxCell id="T7IAFrL1lC8sGGJ73ZXA-25" value="What is the purpose and the activities of this stage?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=3;shadow=0;connectable=1;allowArrows=0;verticalAlign=top;align=left;spacing=0;spacingTop=25;spacingLeft=5;spacingBottom=5;spacingRight=5;movable=1;expand=0;resizable=0;rotatable=0;deletable=1;editable=1;locked=0;strokeColor=none;fontSize=16;" parent="ybo5J9kRYHcmtXYjwoDp-31" vertex="1">
           <mxGeometry x="10" y="60" width="360" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="T7IAFrL1lC8sGGJ73ZXA-26" value="Who is receiving or contributing value in this stage?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=3;shadow=0;connectable=1;allowArrows=0;verticalAlign=top;align=left;spacing=0;spacingTop=25;spacingLeft=5;spacingBottom=5;spacingRight=5;movable=1;expand=0;resizable=0;rotatable=0;deletable=1;editable=1;locked=0;strokeColor=none;fontSize=16;" vertex="1" parent="ybo5J9kRYHcmtXYjwoDp-31">
+        <mxCell id="T7IAFrL1lC8sGGJ73ZXA-26" value="Who is receiving or contributing value in this stage?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=3;shadow=0;connectable=1;allowArrows=0;verticalAlign=top;align=left;spacing=0;spacingTop=25;spacingLeft=5;spacingBottom=5;spacingRight=5;movable=1;expand=0;resizable=0;rotatable=0;deletable=1;editable=1;locked=0;strokeColor=none;fontSize=16;" parent="ybo5J9kRYHcmtXYjwoDp-31" vertex="1">
           <mxGeometry x="370" y="60" width="400" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="T7IAFrL1lC8sGGJ73ZXA-27" value="What value provided by this stage?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=3;shadow=0;connectable=1;allowArrows=0;verticalAlign=top;align=left;spacing=0;spacingTop=25;spacingLeft=5;spacingBottom=5;spacingRight=5;movable=1;expand=0;resizable=0;rotatable=0;deletable=1;editable=1;locked=0;strokeColor=none;fontSize=16;" vertex="1" parent="ybo5J9kRYHcmtXYjwoDp-31">
+        <mxCell id="T7IAFrL1lC8sGGJ73ZXA-27" value="What value provided by this stage?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=3;shadow=0;connectable=1;allowArrows=0;verticalAlign=top;align=left;spacing=0;spacingTop=25;spacingLeft=5;spacingBottom=5;spacingRight=5;movable=1;expand=0;resizable=0;rotatable=0;deletable=1;editable=1;locked=0;strokeColor=none;fontSize=16;" parent="ybo5J9kRYHcmtXYjwoDp-31" vertex="1">
           <mxGeometry x="770" y="60" width="360" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="T7IAFrL1lC8sGGJ73ZXA-28" value="What are the conditions that must be met to start this stage?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=3;shadow=0;connectable=1;allowArrows=0;verticalAlign=top;align=left;spacing=0;spacingTop=25;spacingLeft=5;spacingBottom=5;spacingRight=5;movable=1;expand=0;resizable=0;rotatable=0;deletable=1;editable=1;locked=0;strokeColor=none;fontSize=16;" vertex="1" parent="ybo5J9kRYHcmtXYjwoDp-31">
+        <mxCell id="T7IAFrL1lC8sGGJ73ZXA-28" value="What are the conditions that must be met to start this stage?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=3;shadow=0;connectable=1;allowArrows=0;verticalAlign=top;align=left;spacing=0;spacingTop=25;spacingLeft=5;spacingBottom=5;spacingRight=5;movable=1;expand=0;resizable=0;rotatable=0;deletable=1;editable=1;locked=0;strokeColor=none;fontSize=16;" parent="ybo5J9kRYHcmtXYjwoDp-31" vertex="1">
           <mxGeometry x="10" y="320" width="360" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="T7IAFrL1lC8sGGJ73ZXA-37" value="Identify the relationship between this stage and other concepts, such as capabilities, processes, applications ..." style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=3;shadow=0;connectable=1;allowArrows=0;verticalAlign=top;align=left;spacing=0;spacingTop=25;spacingLeft=5;spacingBottom=5;spacingRight=5;movable=1;expand=0;resizable=0;rotatable=0;deletable=1;editable=1;locked=0;strokeColor=none;fontSize=16;" vertex="1" parent="ybo5J9kRYHcmtXYjwoDp-31">
+        <mxCell id="T7IAFrL1lC8sGGJ73ZXA-37" value="Identify the relationship between this stage and other concepts, such as capabilities, processes, applications ..." style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=3;shadow=0;connectable=1;allowArrows=0;verticalAlign=top;align=left;spacing=0;spacingTop=25;spacingLeft=5;spacingBottom=5;spacingRight=5;movable=1;expand=0;resizable=0;rotatable=0;deletable=1;editable=1;locked=0;strokeColor=none;fontSize=16;" parent="ybo5J9kRYHcmtXYjwoDp-31" vertex="1">
           <mxGeometry x="370" y="320" width="760" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="YRpFlSeO9CUykDxH234q-0" value="Rev?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=0;shadow=0;connectable=1;allowArrows=0;fontSize=16;align=right;spacing=0;spacingLeft=0;spacingRight=33;movable=1;expand=0;resizable=1;rotatable=0;deletable=1;editable=1;locked=0;" vertex="1" parent="ybo5J9kRYHcmtXYjwoDp-31">
+          <mxGeometry x="1040" y="10" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YRpFlSeO9CUykDxH234q-1" value="Date?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=0;shadow=0;connectable=1;allowArrows=0;fontSize=16;spacing=0;align=right;spacingRight=35;spacingLeft=0;movable=1;expand=0;resizable=1;rotatable=0;deletable=1;editable=1;locked=0;" vertex="1" parent="ybo5J9kRYHcmtXYjwoDp-31">
+          <mxGeometry x="880" y="10" width="160" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
