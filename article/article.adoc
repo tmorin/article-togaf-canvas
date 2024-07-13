@@ -1,7 +1,7 @@
 = TOGFA Canvas
 :author: Thibault Morin
-:revdate: 2024-07-02
-:revnumber: 3
+:revdate: 2024-07-13
+:revnumber: 4
 :toc:
 :icons: font
 :source-highlighter: coderay
@@ -170,6 +170,143 @@ This includes anyone who has a vested interest in the project or whose work will
 
 |Explanation
 |Provide a high-level overview of the architecture work, including the primary deliverables and the future state of the architecture. This may include a conceptual diagram of the solution, identifying any gaps between the current and target states, or outlining the roadmap to achieve the vision.
+|===
+
+== TOGAF - Architecture Principle
+
+The purpose of this canvas is to streamline the design of an Architecture Principle according to the TOGAF Standard. It provides a structured approach to identify, define, and communicate an Architecture Principle.
+
+.TOGAF - Architecture Principle - Annotated Canvas
+image::./canvas-togaf.principle.annotated.svg[]
+
+To guide the design of the architecture principle, the canvas provides a set of questions, keywords, and explanations for each box.
+
+.TOGAF - Architecture Principle - Description
+[%autowidth.stretch, cols="h,a"]
+|===
+|Box
+|Statement
+
+|Question
+|What is the core rule or guideline that the architecture principle establishes?
+
+|Keywords
+|core rule, guideline, principle statement
+
+|Explanation
+|The explanation should clearly and concisely convey the core rule. Generally, the principle statements for managing information are consistent across different organizations. It is crucial that the principle statement is clear and unambiguous.
+|===
+
+.TOGAF - Architecture Principle - Rationale
+[%autowidth.stretch, cols="h,a"]
+|===
+|Box
+|Rationale
+
+|Question
+|Why is this principle important for the business?
+
+|Keywords
+|business advantages, principle importance, business operations
+
+|Explanation
+|The rationale should emphasize the business advantages of following the principle, using business language. It should highlight the parallels between information and technology principles and those guiding business operations. Additionally, it should explain the connections to other principles and the intent for a balanced interpretation. Provide examples of situations where one principle might take precedence over another in decision-making.
+|===
+
+.TOGAF - Architecture Principle - Implications
+[%autowidth.stretch, cols="h,a"]
+|===
+|Box
+|Implications
+
+|Question
+|What are the necessary requirements and impacts for implementing this principle?
+
+|Keywords
+|requirements, implementation, resources, costs, impacts
+
+|Explanation
+|The implications should outline the necessary requirements for both business and IT to implement the principle, including resources, costs, and specific activities or tasks. It should address how current systems, standards, or practices might conflict with the principle upon its adoption, acknowledging that the context will determine the extent of these issues. The impact on the business and the consequences of adopting the principle should be clearly explained, helping the reader understand "How does this affect me?". It's important not to oversimplify or trivialize these impacts, nor to judge their value. Some implications may be identified as potential or speculative impacts rather than being fully analyzed.
+|===
+
+.TOGAF - Architecture Principle - Quality Check: Understandable
+[%autowidth.stretch, cols="h,a"]
+|===
+|Box
+|Quality Check: Understandable
+
+|Question
+|Can the principle be easily understood by all stakeholders?
+
+|Keywords
+|clarity, simplicity, comprehension
+
+|Explanation
+|The principle should be quickly grasped and understood by individuals throughout the organization. The intention of the principle must be clear and unambiguous to minimize both intentional and unintentional violations.
+|===
+
+.TOGAF - Architecture Principle - Quality Check: Robust
+[%autowidth.stretch, cols="h,a"]
+|===
+|Box
+|Quality Check: Robust
+
+|Question
+|Is the principle strong enough to support decision-making and policy enforcement?
+
+|Keywords
+|strength, enforceability, decision support
+
+|Explanation
+|The principle should enable high-quality decisions about architectures and plans, as well as the creation of enforceable policies and standards. Each principle must be sufficiently definitive and precise to support consistent decision-making in complex and potentially controversial situations.
+|===
+
+.TOGAF - Architecture Principle - Quality Check: Complete
+[%autowidth.stretch, cols="h,a"]
+|===
+|Box
+|Quality Check: Complete
+
+|Question
+|Does the principle address all necessary aspects of information and technology management?
+
+|Keywords
+|comprehensiveness, coverage, thoroughness
+
+|Explanation
+|The principle should define every important aspect of managing information and technology for the organization. It must cover all perceived situations to ensure no critical areas are overlooked.
+|===
+
+.TOGAF - Architecture Principle - Quality Check: Consistent
+[%autowidth.stretch, cols="h,a"]
+|===
+|Box
+|Quality Check: Consistent
+
+|Question
+|Are the principles expressed in a balanced and non-contradictory manner?
+
+|Keywords
+|harmony, coherence, alignment
+
+|Explanation
+|The principles should be expressed in a way that allows a balance of interpretations. They must not be contradictory to the point where adherence to one principle would violate the spirit of another. Every word in a principle statement should be carefully chosen to allow consistent yet flexible interpretation.
+|===
+
+.TOGAF - Architecture Principle - Quality Check: Stable
+[%autowidth.stretch, cols="h,a"]
+|===
+|Box
+|Quality Check: Stable
+
+|Question
+|Are the principles designed to endure over time while allowing for necessary changes?
+
+|Keywords
+|durability, adaptability, amendment process
+
+|Explanation
+|Principles should be enduring, yet able to accommodate changes. An amendment process should be established for adding, removing, or altering principles after their initial ratification to ensure they remain relevant and effective over time.
 |===
 
 == TOGAF - Value Stream
@@ -360,6 +497,7 @@ To guide the design of the architecture vision, the canvas provides a set of que
 == Bibliography
 
 * [[[pA]]] https://pubs.opengroup.org/togaf-standard/adm/chap03.html[TOGAF® Fundamental Content - Phase A: Architecture Vision]
+* [[[ap]]] https://pubs.opengroup.org/togaf-standard/adm-techniques/chap02.html[TOGAF® Fundamental Content - Architecture Principles]
 * [[[vs]]] https://pubs.opengroup.org/togaf-standard/business-architecture/value-streams.html[TOGAF® Series Guide - Value Streams]
 
 [colophon]
@@ -374,6 +512,11 @@ Distributed under the https://creativecommons.org/licenses/by/4.0:[{copyright}] 
 
 .TOGAF - Architecture Vision - Canvas
 image::./canvas-togaf.vision.svg[]
+
+=== TOGAF - Architecture Principle - Canvas
+
+.TOGAF - Architecture Principle - Canvas
+image::./canvas-togaf.principle.svg[]
 
 === TOGAF - Value Stream - Canvas
 
